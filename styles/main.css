@@ -1,38 +1,41 @@
-body{
+body {
     margin: 0;
 }
 
-h1{
+h1 {
     font-size: 5rem;
 }
-h2{
+
+h2 {
     font-size: 2.5rem;
 }
 
 
 /************************************ navbar */
 
-.navbar-ancor{
+.navbar-ancor {
     font-size: 1.15rem;
 }
-#nav-hide{
- position: fixed;
- width: 100%;
- transition: 0.5s;
- z-index: 1;
+
+#nav-hide {
+    position: fixed;
+    width: 100%;
+    transition: 0.5s;
+    z-index: 1;
 }
+
 /***************************** Title section *********************/
-#title{
-   
-    background-image: url(/images/title\ photo.png);
+#title {
+
+    background-image: url('../images/title\ photo.png');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 500px;   
-    
+    height: 500px;
+
 }
 
-.title-heading{
+.title-heading {
     color: #ffffff;
     text-align: center;
     width: 80%;
@@ -44,85 +47,95 @@ h2{
 
 /***************************** services **********************/
 
-#services{
+#services {
     margin-top: 5rem;
     text-align: center;
 
 }
-.services-heading{
+
+.services-heading {
     font-size: 2.5rem;
 }
 
-.services-row{
+.services-row {
     padding: 3rem;
 }
-.services-icons{
+
+.services-icons {
     margin-top: 40px;
     margin-bottom: 40px;
 }
-.services-description{
+
+.services-description {
     margin-top: 15px;
     font-size: 1.2rem;
 }
+
 /********************* get-in-touch ****************************/
 
-#get-in-touch{
+#get-in-touch {
     margin-top: 5rem;
     text-align: left;
-    background-image: url(/images/714.png);
+    background-image: url('../images/background3.png');
     background-position: center;
     background-repeat: no-repeat;
-    background-size:  cover;
-    height: 500px;   
+    background-size: cover;
+    height: 500px;
 }
-.get-in-touch-div{
+
+.get-in-touch-div {
     color: #ffffff;
     padding: 4rem;
 }
-.get-in-touch-div button{
-   margin-top: 1rem;
-   font-size: 1.2rem;
-   background-color: #d92027;
-   border: none;
-   padding: 15px;
-   transition: 0.2s;
+
+.get-in-touch-div button {
+    margin-top: 1rem;
+    font-size: 1.2rem;
+    background-color: #d92027;
+    border: none;
+    padding: 15px;
+    transition: 0.2s;
 }
-.get-in-touch-div button:hover{
-   background-color:rgba(255, 255, 255,0.8);
- }
+
+.get-in-touch-div button:hover {
+    background-color: rgba(255, 255, 255, 0.8);
+}
 
 /************** Footer ********************/
-footer{
-margin-top: 40px;
+footer {
+    margin-top: 40px;
 }
-.footer-grid{
-width: 50%;
-margin: auto;
+
+.footer-grid {
+    width: 50%;
+    margin: auto;
 
 }
+
 ul#footer-nav {
     text-align: center;
     padding: 3rem;
-  }
+}
 
 ul#footer-nav li {
-    display:inline;
+    display: inline;
     padding: 8px;
-    
-  }
-  ul#footer-nav li a{
+
+}
+
+ul#footer-nav li a {
     text-decoration: none;
     color: #d92027;
-  }
+}
 
-.copyright p{
-width: 50%;
-display: inline-block;
-float: right;
-text-align: center;
-padding: 1rem 1rem 0 1rem;
-background-color: #d92027;
-margin-bottom: 0;
+.copyright p {
+    width: 50%;
+    display: inline-block;
+    float: right;
+    text-align: center;
+    padding: 1rem 1rem 0 1rem;
+    background-color: #d92027;
+    margin-bottom: 0;
 }
 
 
@@ -131,10 +144,21 @@ margin-bottom: 0;
 
 /************************************** media queries *********************/
 
-@media (max-width: 800px){
-    #title{
-   
-        height: 700px;   
-        
+@media (max-width: 800px) {
+    #title {
+        height: 700px;
+    }
+
+    .copyright p {
+        width: 100%;
+        display: inline-block;
+        float: none;
+        text-align: center;
+        padding: 1rem;
+
+    }
+
+    .copyright {
+        background-color: #d92027;
     }
 }
